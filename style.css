@@ -21,39 +21,12 @@
 .card-4{
     border-bottom-right-radius: 50% !important;
 }
-.num{
-    color:red;
-    border: 2px solid #000;
-    border-radius: 50%;
-    height:110px;
-    width:110px;
-    text-align: center; 
-    padding: 4px;
-    font-size: 400%;
-    font-weight: bold;
-}
-.dash{
-    border:2px solid #000;
-    width:300px;
-    height:0px;
-    margin-top:55px;
-}
 .text{
     margin-right: 235px!important;
-}
-.container-1{
-    max-width: 1500px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
 }
 .carsec{
     margin-top:20px;
 }
-
-
 .number-circle{
     height: 35px;
     width: 35px;
@@ -64,6 +37,15 @@
 .hr-top{
     top: 20px;
 }
+.white-square-card{
+    height: 150px;
+    width: 150px;
+}
+.white-square-card-text{
+    font-size: 16px;
+}
+
+
 
 @media (min-width: 766px){
     .number-circle{
@@ -77,15 +59,6 @@
         top: 25px;
     }
 }
-
-.white-square-card{
-    height: 150px;
-    width: 150px;
-}
-.white-square-card-text{
-    font-size: 16px;
-}
-
 @media (max-width: 410px){
     .white-square-card{
         height: 130px;
