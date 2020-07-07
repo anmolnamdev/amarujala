@@ -1,0 +1,54 @@
+.amar-img{
+    height:100px;
+}
+.card-img{
+    border-radius: 2px;
+    height:70px;
+    width: 90px;
+}
+.safalta-card{
+    border-radius:0px !important;
+}
+.card-1{
+    border-top-left-radius: 50% !important;
+}
+.card-2{
+    border-top-right-radius: 50% !important;
+}
+.card-3{
+    border-bottom-left-radius: 50% !important;
+}
+.card-4{
+    border-bottom-right-radius: 50% !important;
+}
+.num{
+    color:red;
+    border: 2px solid #000;
+    border-radius: 50%;
+    height:110px;
+    width:110px;
+    text-align: center; 
+    padding: 4px;
+    font-size: 400%;
+    font-weight: bold;
+}
+.dash{
+    border:2px solid #000;
+    width:300px;
+    height:0px;
+    margin-top:55px;
+}
+.text{
+    margin-right: 235px!important;
+}
+.container-1{
+    max-width: 1500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.carsec{
+    margin-top:70px;
+}
