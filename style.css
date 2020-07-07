@@ -3,8 +3,8 @@
 }
 .card-img{
     border-radius: 2px;
-    height:70px;
-    width: 90px;
+    height:100%;
+    width: 100%;
 }
 .safalta-card{
     border-radius:0px !important;
@@ -50,5 +50,48 @@
     margin-left: auto;
 }
 .carsec{
-    margin-top:70px;
+    margin-top:20px;
+}
+
+
+.number-circle{
+    height: 35px;
+    width: 35px;
+}
+.text-below-number-circle{
+    font-size: 14px;
+}
+.hr-top{
+    top: 20px;
+}
+
+@media (min-width: 766px){
+    .number-circle{
+        height: 50px;
+        width: 50px;
+    }
+    .text-below-number-circle{
+        font-size: 1.5rem;
+    }
+    .hr-top{
+        top: 25px;
+    }
+}
+
+.white-square-card{
+    height: 150px;
+    width: 150px;
+}
+.white-square-card-text{
+    font-size: 16px;
+}
+
+@media (max-width: 410px){
+    .white-square-card{
+        height: 130px;
+        width: 130px;
+    }
+    .white-square-card-text{
+        font-size: 14px;
+    }
 }
